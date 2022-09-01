@@ -14,7 +14,7 @@ class Chart extends Component{
 
 componentDidMount(){
 
-    fetch("http://localhost:3001/api/movies")
+    fetch("http://localhost:3002/api/products")
     .then( res => res.json())
     .then(movies => {
 
@@ -39,11 +39,11 @@ render(){
                     <table className="table table-bordered" id="dataTable" width="100%" cellSpacing="0">
                         <thead>
                             <tr>
-                                <th>Título</th>
-                                <th>Duración</th>
-                                <th>Rating</th>
-                                <th>Género</th>
-                                <th>Premios</th>
+                                <th>Producto</th>
+                                <th>Precio</th>
+                                <th>Stock</th>
+                                <th>categoria</th>
+                                <th>Oferta</th>
                             </tr>
                         </thead>
                         <tbody>

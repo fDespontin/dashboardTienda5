@@ -1,5 +1,6 @@
 import React from "react"
-import logo from "../assets/images/logo-DH.png"
+// import logo from "../assets/images/logo-DH.png"
+import logo from "../assets/images/logo.jpeg"
 import {Link, Route, Switch } from 'react-router-dom'
 import ContentWarapper from "./ContentWrapper"
 import LastMovie from "./LastMovie"
@@ -28,7 +29,7 @@ function SideBar () {
 			<li className="nav-item active">
 				<Link className="nav-link" to="/">
 					<i className="fas fa-fw fa-tachometer-alt"></i>
-					<span>Dashboard - DH movies</span></Link>
+					<span>Dashboard - Tienda 5</span></Link>
 			</li>
 
 			<hr className="sidebar-divider"/>
@@ -38,28 +39,28 @@ function SideBar () {
 			<li className="nav-item">
 				<Link className="nav-link collapsed" to="/last-movie">
 					<i className="fas fa-fw fa-folder"></i>
-					<span>Last Movie</span>
+					<span>Último producto</span>
 				</Link>
 			</li>
 
 			<li className="nav-item">
 				<Link className="nav-link collapsed" to="/genres-list">
 					<i className="fas fa-fw fa-folder"></i>
-					<span>Genres List</span>
+					<span>Categorías</span>
 				</Link>
 			</li>
 
 			<li className="nav-item">
 				<Link className="nav-link" to="/charts">
 					<i className="fas fa-fw fa-chart-area"></i>
-					<span>Charts</span>
+					<span>Gráficos de gestión</span>
 				</Link>
 			</li>
 
 			<li className="nav-item">
 				<Link className="nav-link" to="/table">
 					<i className="fas fa-fw fa-table"></i>
-					<span>Tables</span>
+					<span>Estadísticas</span>
 				</Link>
 			</li>
 

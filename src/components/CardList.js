@@ -2,23 +2,23 @@ import React from "react"
 import Card from "./Card"
 
 let moviesInDB = {
-    title: 'Movies in Data Base',
+    title: 'Total de productos',
     color: 'primary', 
-    cuantity: 21,
-    icon: 'fa-film'
+    cuantity: 8,
+    icon: 'fa-gift'
 }
 
 let totalAwards = {
-    title:' Total awards', 
+    title:' Total de categorías', 
     color:'success', 
-    cuantity: '79',
-    icon:'fa-award'
+    cuantity: '7',
+    icon:'fa-archive'
 }
 
 let actorsQuantity = {
-    title:'Actors quantity' ,
+    title:'Cantidad de usuarios' ,
     color:'warning',
-    cuantity:'49',
+    cuantity:'2',
     icon:'fa-user-check'
 }
 

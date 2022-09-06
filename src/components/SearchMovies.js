@@ -60,11 +60,11 @@ function SearchMovies(){
 							</form>
 						</div>
 					</div>
-					<div className="row">
+				{/*	<div className="row">
 						<div className="col-12">
 							<h2>Productos para la palabra: {keyword}</h2>
 						</div>
-						{/* Listado de películas */}
+						{Listado de películas}
 						{
 							movies.length > 0 && movies.map((movie, i) => {
 								return (
@@ -90,7 +90,7 @@ function SearchMovies(){
 							})
 						}
 					</div>
-					{ movies.length === 0 && <div className="alert alert-warning text-center">No se encontraron productos</div>}
+					{ movies.length === 0 && <div className="alert alert-warning text-center">No se encontraron productos</div>}*/}
 				</>
 				:
 				<div className="alert alert-danger text-center my-4 fs-2">Eyyyy... ¿PUSISTE TU APIKEY?</div>

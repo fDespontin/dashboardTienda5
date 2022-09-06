@@ -15,7 +15,7 @@ class GenresInDb extends Component {
 
 	componentDidMount() {
 
-		fetch("http://localhost:3002/api/productCategories")
+		fetch("http://localhost:3002/APICategoriaProductos")
 
 		.then(respuesta => {
 				

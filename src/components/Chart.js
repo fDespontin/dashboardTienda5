@@ -14,7 +14,7 @@ class Chart extends Component{
 
 componentDidMount(){
 
-    fetch("http://localhost:3002/api/products")
+    fetch("http://localhost:3002/APIProductos")
     .then( res => res.json())
     .then(movies => {
 
@@ -43,7 +43,7 @@ render(){
                                 <th>Precio</th>
                                 <th>Stock</th>
                                 <th>categoria</th>
-                                <th>Oferta</th>
+                                <th>SKU</th>
                             </tr>
                         </thead>
                         <tbody>
